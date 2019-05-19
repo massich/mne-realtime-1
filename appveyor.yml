@@ -25,6 +25,7 @@ install:
   - "conda install --yes pip numpy==%NUMPY_VERSION% scipy==%SCIPY_VERSION% scikit-learn==%SKLEARN_VERSION% nose pytest pytest-cov"
   - pip install codecov
   - pip install .
+  - pip install pylsl
 
 test_script:
   - mkdir for_test

@@ -1,16 +1,26 @@
 ####################
-project-template API
+mne-realtime API
 ####################
 
 This is an example on how to document the API of your own project.
 
 .. currentmodule:: mne_realtime
 
-MNE-Template
+MNE-Realtime
 ============
 
 .. autosummary::
    :toctree: generated/
    :template: class.rst
 
-   Some text
+   FieldTripClient
+   LSLClient
+   MockLSLStream
+   MockRtClient
+   RtEpochs
+   RtClient
+   StimServer
+   StimClient
+
+
+
